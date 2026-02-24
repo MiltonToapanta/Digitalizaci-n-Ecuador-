@@ -1,0 +1,544 @@
+================================================================================
+      ÍNDICE DE DESARROLLO ECONÓMICO DIGITAL - ECUADOR (IDE-EC)
+                      GUÍA COMPLETA Y REFERENCIAS
+================================================================================
+
+CONTENIDO DE ESTE ARCHIVO:
+1. Descripción general
+2. Ciencia y teoría detrás de IDE-EC
+3. Estructura de carpetas y dónde encontrar cada cosa
+4. Cómo usar la aplicación
+5. Listado completo de documentos por tipo
+6. Explicación de cada pilar
+
+
+================================================================================
+1. DESCRIPCIÓN GENERAL
+================================================================================
+
+El IDE-EC es un indicador que mide qué tan digitalizada está Ecuador.
+
+Se compone de 4 pilares (dimensiones):
+
+• GOV (Gobernanza Digital)     = 25% → ¿El Estado ofrece servicios digitales?
+• ACC (Acceso y Capacidades)   = 30% → ¿La gente tiene internet y habilidades?
+• ECO (Economía Digital)       = 20% → ¿El sector TIC aporta al PIB?
+• PAY (Pagos Digitales)        = 25% → ¿Se usa dinero electrónico?
+
+FÓRMULA PRINCIPAL:
+IDE-EC = (GOV × 0.25) + (ACC × 0.30) + (ECO × 0.20) + (PAY × 0.25)
+
+Resultado: Un número entre 0 (nada digitalizado) y 1 (100% digitalizado)
+
+RESULTADOS HISTÓRICOS:
+2020: 0.5719
+2021: 0.5827
+2022: 0.5875
+2023: 0.5932 (pico)
+2024: 0.5829 (bajó por crisis macro)
+2025: 0.5824 (estable)
+
+
+================================================================================
+2. TEORÍA: ¿QUÉ MIDE CADA PILAR?
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PILAR A: GOV - GOBERNANZA DIGITAL (25%)                                │
+└─────────────────────────────────────────────────────────────────────────┘
+
+¿Qué mide?
+El nivel de modernización digital del Estado ecuatoriano. Si el Gobierno
+ofrece servicios digitales, tiene infraestructura tecnológica, y capital
+humano capacitado.
+
+Indicadores clave:
+1. Servicios en línea = % de trámites disponibles digitalmente
+   • Ecuador: 88.51% (casi los servicios importantes están online)
+   
+2. Infraestructura técnica = Servidores, bases de datos, seguridad
+   • Ecuador: 69.34% de capacidad técnica adecuada
+   
+3. Capital humano = % de funcionarios con competencias digitales
+   • Ecuador: 77.15% de funcionarios capacitados
+
+Fórmula: GOV = (Servicios + Infraestructura + Capital Humano) / 3
+
+Ejemplo 2024:
+GOV = (0.8851 + 0.6934 + 0.7715) / 3 = 0.7800
+
+Fuentes: UN E-Government Knowledgebase (publicadministration.un.org)
+Documentos: fuentes/YEAR/gov YEAR.pdf
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PILAR B: ACC - ACCESO Y CAPACIDADES (30%)                              │
+└─────────────────────────────────────────────────────────────────────────┘
+
+¿Qué mide?
+¿Tienen los ecuatorianos los medios (internet, dispositivos) y habilidades
+para usar servicios digitales? La brecha digital más grande no es de
+oferentes, sino de demanda.
+
+Indicadores clave:
+1. IH = Hogares con Internet          (2024: 66.0%)
+2. UI = Usuarios que usan Internet    (2024: 77.2%)
+3. CA = Celulares Activados           (2024: 61.3%)
+4. SP = Smartphones (inteligentes)    (2024: 57.7%)
+5. AD = Alfabetismo Digital           (2024: 94.6%)
+
+Fórmula: ACC = (IH + UI + CA + SP + AD) / 5
+
+Ejemplo 2024:
+ACC = (0.660 + 0.772 + 0.613 + 0.577 + 0.946) / 5 = 0.7136
+
+Detalles importantes:
+• Internet FIJO en hogares: Solo 17.48% (el principal problema)
+• Internet MÓVIL: 89.9% (prácticamente universal)
+• Brecha urbano-rural: 28.4 puntos porcentuales
+• Analfabetismo digital: Solo 5.4% (muy positivo)
+
+Datos críticos:
+- La mayoría de ecuatorianos accede a internet por TELÉFONO, no por computadora
+- Esto limita acceso a ciertos servicios (trámites bancarios complejos, etc.)
+- Aunque el alfabetismo digital es alto (94.6%), la infraestructura fija es insuficiente
+
+Fuentes: INEC (Instituto Nacional de Estadística y Censos)
+Documentos: fuentes/YEAR/acc.xlsx
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PILAR C: ECO - ECONOMÍA DIGITAL (20%)                                  │
+└─────────────────────────────────────────────────────────────────────────┘
+
+¿Qué mide?
+¿Qué tan importante es el sector TIC para la economía ecuatoriana?
+¿Se exportan productos tecnológicos? ¿Llega IED (dinero de afuera) al sector?
+
+Indicadores clave (se suman como % del PIB):
+1. EXP_TI / PIB = Exportaciones de TIC divididas por PIB
+   • 2024: $96.18M / $124,676.1M = 0.0771% (muy bajo!)
+   
+2. VAB / PIB = Valor agregado del sector TIC dividido por PIB
+   • 2024: $2,493M / $124,676.1M = 1.9981%
+   
+3. IED / PIB = Inversión extranjera en TIC dividida por PIB
+   • 2024: $102.6M / $124,676.1M = 0.0822%
+
+Fórmula: ECO = (EXP_TI/PIB) + (VAB/PIB) + (IED/PIB)
+
+Ejemplo 2024:
+ECO = 0.000771 + 0.019981 + 0.000822 = 0.02159 (2.159%)
+
+¿Por qué es tan bajo?
+
+Problema 1: Pocas exportaciones TIC
+- Ecuador exporta materias primas (petróleo, banano, camarones)
+- No hay cadena de valor en tecnología
+- 90% del e-commerce ocurre en plataformas extranjeras (Amazon, AliExpress)
+
+Problema 2: Sector TIC pequeño
+- Representa solo 2% del PIB (comparado con 8-10% en países desarrollados)
+- VAB cayó de $2,786M en 2023 a $2,493M en 2024 (contracción macroeconómica)
+
+Problema 3: IED inestable
+- Inversión foránea en TIC es errática
+- 2023: $17.6M → 2024: $102.6M (spike que requiere verificación)
+
+Fuentes: BCE, World Bank WITS
+Documentos: 
+- fuentes/YEAR/exp ti YEAR.pdf
+- fuentes/YEAR/vab.pdf
+- fuentes/YEAR/ied.pdf
+- fuentes/YEAR/pib nominal.pdf
+
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PILAR D: PAY - PAGOS DIGITALES (25%)                                   │
+└─────────────────────────────────────────────────────────────────────────┘
+
+¿Qué mide?
+El nivel de transformación hacia transacciones electrónicas. Refleja cambios
+reales en HÁBITOS de consumo: ¿la gente usa tarjeta en lugar de efectivo?
+
+Indicadores clave:
+1. GD (Grado de Desarrollo) = Transacciones SPI / PIB
+   • SPI = Sistema de Pagos Interbancarios (dinero que se mueve entre bancos)
+   • 2024: $215,000M / $124,676M = 172.3% (más dinero en transacciones que PIB)
+   
+2. CS (Cash-Score) = Ventas tarjeta / (Ventas tarjeta + Retiros efectivo)
+   • POS (Tarjetas): $15,240M
+   • Cajero/ATM (Efectivo): $35,800M
+   • CS = $15,240 / ($15,240 + $35,800) = 29.86% (todavía mucho efectivo)
+
+Fórmula: PAY = √(GD_normalizado × CS)
+
+Donde: GD_normalizado = GD / 2 (para escalar entre 0-1)
+
+Ejemplo 2024:
+GD_normalizado = 172.327% / 2 = 0.8615
+PAY = √(0.8615 × 0.2986) = √0.2574 = 0.5072
+
+¿Qué significa 50.72%?
+
+Significa que Ecuador está a mitad de camino. Hay transacciones digitales (172%
+del PIB), pero el efectivo sigue siendo importante:
+- 70% de transacciones monetarias todavía son en efectivo
+- 30% son en tarjeta/transferencia (cash-less)
+
+Progreso: En 2015 era 18%, ahora es 30% → clara tendencia hacia bancarización
+
+Pero también hay peligros:
+- Monto promedio de retiros bajó de $112 en 2024 a $88.9 en 2025
+- Crisis económica ralentizó el cambio de conducta
+- El "dinero de bolsillo" sigue siendo importante
+
+Fuentes: BCE - Sistema Nacional de Pagos, Superintendencia de Bancos
+Documentos:
+- fuentes/YEAR/pagos.pdf
+- fuentes/YEAR/gd.pdf
+
+
+================================================================================
+3. ESTRUCTURA DE CARPETAS Y DÓNDE ENCONTRAR CADA COSA
+================================================================================
+
+ESTRUCTURA GENERAL:
+════════════════════════════════════════════════════════════════════════════
+
+Digitalizacion EC/
+│
+├── 📄 index.html            ← LA APLICACIÓN (abre en navegador)
+├── 📄 styles.css            ← Estilos visuales
+├── 📄 script.js             ← Funcionalidad interactiva
+├── 📄 README.md             ← Documentación completa (en Markdown)
+├── 📄 INSTRUCCIONES.txt     ← Este archivo
+│
+├── 📁 fuentes/              ← DOCUMENTOS DE FUENTES (por año)
+│  ├── 📁 2020/              ← Archivos de origen 2020
+│  ├── 📁 2021/              ← Archivos de origen 2021
+│  ├── 📁 2022/              ← Archivos de origen 2022
+│  ├── 📁 2023/              ← Archivos de origen 2023
+│  ├── 📁 2024/              ← Archivos de origen 2024
+│  └── 📁 2025/              ← Archivos de origen 2025
+│
+├── 📁 caso estudio calculos/  ← ANÁLISIS METRO QUITO (2023-2025)
+│  ├── APORTE_METRO_QUITO_PAY 2023.pdf
+│  ├── APORTE_METRO_QUITO_PAY 2024.pdf
+│  └── APORTE_METRO_QUITO_PAY 2025.pdf
+│
+└── 📁 docs/                 ← DOCUMENTOS TEÓRICOS COMPLETOS (por año)
+   ├── 2020.pdf             ← Análisis IDE-EC completo 2020
+   ├── 2021.pdf             ← Análisis IDE-EC completo 2021
+   ├── 2022.pdf             ← Análisis IDE-EC completo 2022
+   ├── 2023.pdf             ← Análisis IDE-EC completo 2023
+   ├── 2024.pdf             ← Análisis IDE-EC completo 2024
+   └── 2025.pdf             ← Análisis IDE-EC completo 2025
+
+
+CARPETA FUENTES/ (Documentos de origen):
+════════════════════════════════════════════════════════════════════════════
+
+¿Qué hay aquí?
+Archivos PDF y Excel que RESPALDAN los cálculos mostrados en la app.
+Están organizados por año y por tipo de indicador.
+
+Convención de nombres:
+- gov YEAR.pdf = Gobernanza digital
+- acc.xlsx = Acceso (datos INEC)
+- gd.pdf = Grado de desarrollo de pagos
+- exp ti YEAR.pdf = Exportaciones TIC
+- eco ied YEAR.pdf = Economía e inversión extranjera
+- vab.pdf = Valor agregado bruto
+- pib nominal.pdf = PIB nominal
+- pagos.pdf = Estadísticas de pagos digitales
+
+EJEMPLO - fuentes/2024/:
+├── gov 2024.pdf                 → Pilar GOV: Gobernanza digital
+├── acc.xlsx                     → Pilar ACC: Acceso (datos INEC)
+├── vab.pdf                      → Pilar ECO: Valor agregado
+├── exp ti.pdf                   → Pilar ECO: Exportaciones
+├── ied.pdf                      → Pilar ECO: IED
+├── spi.pdf                      → Sistema de Pagos (PAY)
+├── pib nominal.pdf              → PIB (usado en múltiples pilares)
+└── pagos.pdf                    → Pilar PAY: Pagos digitales
+
+
+CARPETA CASO ESTUDIO CALCULOS/:
+════════════════════════════════════════════════════════════════════════════
+
+¿Qué hay aquí?
+Análisis específico del Metro de Quito (2023-2025).
+Explora el APORTE del Metro a la economía digital ecuatoriana,
+enfocado en pagos digitales y transformación de hábitos.
+
+Archivos:
+APORTE_METRO_QUITO_PAY 2023.pdf   → Análisis Metro 2023
+APORTE_METRO_QUITO_PAY 2024.pdf   → Análisis Metro 2024
+APORTE_METRO_QUITO_PAY 2025.pdf   → Análisis Metro 2025
+
+Cada archivo contiene:
+- Volumen de transacciones del Metro
+- Impacto en bancarización urbana
+- Contribución a reducción de circulante
+- Multiplicador económico
+
+
+CARPETA DOCS/:
+════════════════════════════════════════════════════════════════════════════
+
+¿Qué hay aquí?
+Documentación TEÓRICA COMPLETA de cada año.
+These are COMPREHENSIVE REPORTS que explican la teoría detrás de IDE-EC.
+
+Archivos:
+2020.pdf → Reporte IDE-EC 2020 (metodología + análisis)
+2021.pdf → Reporte IDE-EC 2021 (año a año)
+2022.pdf → Reporte IDE-EC 2022 (comparativa + tendencias)
+2023.pdf → Reporte IDE-EC 2023 (análisis con Metro)
+2024.pdf → Reporte IDE-EC 2024 (crisis económica)
+2025.pdf → Reporte IDE-EC 2025 (proyecciones)
+
+Cada reporte contiene:
+✓ Justificación teórica de cada pilar
+✓ Explicación de fórmulas y cálculos
+✓ Validación metodológica
+✓ Limitaciones y sesgos
+✓ Comparativas con otros indicadores
+✓ Recomendaciones de política pública
+
+
+================================================================================
+4. CÓMO USAR LA APLICACIÓN
+================================================================================
+
+PASO 1: Abrir la aplicación
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Opción A: Con Python (recomendado)
+  1. Abre terminal (PowerShell, CMD, etc.)
+  2. Navega a la carpeta: cd "c:\Users\Milton\Downloads\Digitalizacion EC"
+  3. Ejecuta: python -m http.server 8000
+  4. Abre navegador: http://localhost:8000/index.html
+
+Opción B: Directamente (sin servidor)
+  1. Click derecho en index.html
+  2. Selecciona "Abrir con..." → Tu navegador
+  3. O arrastra index.html al navegador
+
+Opción C: Navegador moderno (Edge, Chrome, Firefox)
+  - Ctrl+O (Abrir archivo) → selecciona index.html
+
+
+PASO 2: Navegar la aplicación
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+En la página verás:
+
+1. MENÚ AÑO (arriba)
+   - Selecciona 2020 → 2025
+   - La página se actualiza con datos del año seleccionado
+
+2. TABLA RESUMEN
+   - Muestra GOV, ACC, ECO, PAY, IDE-EC
+   - Compara con año anterior
+
+3. ANÁLISIS COMPLETO (acordeones expandibles)
+   Expande cada pilar para ver:
+   - Descripción
+   - Cálculo paso a paso
+   - Indicadores detallados
+   - Fuentes (links a PDF/Excel locales)
+
+4. CASO DE ESTUDIO
+   - Análisis específico del Metro de Quito
+   - Cómo impacta en pagos digitales
+
+5. BOTONES DE DESCARGA
+   - "Descargar PDF YEAR" → Descarga análisis completo
+   - Abre en nueva pestaña, listo para imprimir
+
+
+PASO 3: Acceder a documentos
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dentro de la app, todos los links apuntan a archivos locales:
+
+Cuando haces click en:
+[Análisis GOV 2024] → Abre: fuentes/2024/gov 2024.pdf
+[Datos ACC 2024]   → Abre: fuentes/2024/acc.xlsx
+[Exportaciones]    → Abre: fuentes/2024/exp ti.pdf
+
+Los archivos se abren en tu lector PDF o Excel favorito.
+
+
+================================================================================
+5. LISTADO COMPLETO DE DOCUMENTOS POR TIPO
+================================================================================
+
+DOCUMENTOS GOBERNANZA (GOV por año):
+════════════════════════════════════════════════════════════════════════════
+fuentes/2020/gov 2020- 2021.pdf
+fuentes/2021/gov 2021.pdf
+fuentes/2022/gov 2022.pdf
+fuentes/2023/gov 2023.pdf
+fuentes/2024/gov 2024.pdf
+fuentes/2025/gov 2025.pdf
+
+Contienen: Datos UN E-Government Index, servicios digitales estatales
+
+
+DOCUMENTOS ACCESO (ACC - datos INEC):
+════════════════════════════════════════════════════════════════════════════
+fuentes/2020/acc 2020.pdf
+fuentes/2021/acc.xlsx
+fuentes/2022/acc.xlsx
+fuentes/2023/acc.xlsx
+fuentes/2024/acc.xlsx
+fuentes/2025/acc.xlsx
+
+Contienen: Hogares con internet, usuarios activos, dispositivos, alfabetismo
+
+
+DOCUMENTOS ECONOMÍA (ECO):
+════════════════════════════════════════════════════════════════════════════
+Exportaciones TIC:
+  fuentes/2020/Exportaciones TIC (EXP_TI) 2020.pdf
+  fuentes/2021/exp tic 2021.pdf
+  fuentes/2022/exp ti 2022.pdf
+  fuentes/2023/exp ti 2023.pdf
+  fuentes/2024/exp ti.pdf
+
+Valor Agregado:
+  fuentes/2020/eco ied 2020.pdf
+  fuentes/2021/eco ied 2021.pdf
+  fuentes/2022/vab.pdf
+  fuentes/2023/vab.pdf
+  fuentes/2024/vab.pdf
+
+Inversión Extranjera:
+  fuentes/2023/8_1_IED_Rama(8_1_IED_Rama).csv
+  fuentes/2024/ied.pdf
+
+PIB Nominal (denominador):
+  fuentes/2021/pib nominal.pdf
+  fuentes/2022/pib nominal.pdf
+  fuentes/2023/pib nominal.pdf
+  fuentes/2024/pib nominal.pdf
+
+
+DOCUMENTOS PAGOS DIGITALES (PAY):
+════════════════════════════════════════════════════════════════════════════
+Grado de Desarrollo:
+  fuentes/2020/gd 2020.pdf
+  fuentes/2021/gd.pdf
+  fuentes/2022/gd.pdf
+  fuentes/2023/gd.pdf
+  fuentes/2025/gd.pdf
+
+Estadísticas de Pagos:
+  fuentes/2023/pagos.pdf
+  fuentes/2024/spi.pdf
+  fuentes/2025/pagos.pdf
+
+Contienen: Transacciones SPI, retiros ATM, volumen de tarjetas, cash-score
+
+
+DOCUMENTOS TEÓRICOS COMPLETOS (docs/):
+════════════════════════════════════════════════════════════════════════════
+docs/2020.pdf     → Metodología + Análisis IDE-EC 2020
+docs/2021.pdf     → Tendencias 2021
+docs/2022.pdf     → Análisis comparativo 2020-2022
+docs/2023.pdf     → Con integración Metro Quito
+docs/2024.pdf     → Impacto crisis macroeconómica
+docs/2025.pdf     → Proyecciones y estabilización
+
+Cada uno contiene:
+- Justificación de pilares
+- Explicación de fórmulas
+- Validación metodológica
+- Análisis crítico
+
+
+CASO DE ESTUDIO (Metro Quito):
+════════════════════════════════════════════════════════════════════════════
+caso estudio calculos/APORTE_METRO_QUITO_PAY 2023.pdf
+caso estudio calculos/APORTE_METRO_QUITO_PAY 2024.pdf
+caso estudio calculos/APORTE_METRO_QUITO_PAY 2025.pdf
+
+Contienen: Análisis del aporte del Metro a pagos digitales ecuatorianos
+
+
+================================================================================
+6. CARACTERÍSTICAS TÉCNICAS
+================================================================================
+
+✅ FUNCIONA SIN INTERNET
+   - Todos los documentos están locales
+   - No requiere conexión WiFi
+   - Compatible con USB portátil
+
+✅ NAVEGADORES COMPATIBLES
+   - Chrome / Edge / Firefox / Safari
+   - Versiones modernas (2020+)
+   - Responsive (funciona en tablets)
+
+✅ FORMATOS SOPORTADOS
+   - HTML5 (aplicación web)
+   - PDF (documentos teóricos y fuentes)
+   - Excel/XLSX (datos estadísticos)
+   - CSV (datos económicos)
+
+✅ CARACTERÍSTICAS
+   - Acordeones expandibles para cada pilar
+   - Cálculos paso a paso con explicaciones
+   - Links a documentos originales
+   - Descarga de reportes PDF
+   - Interfaz responsiva
+   - Sin trackers ni Analytics
+
+
+================================================================================
+RESUMEN FINAL: DÓNDE ENCONTRAR CADA COSA
+================================================================================
+
+¿Quiero ver la APLICACIÓN?
+  → Abre: index.html
+
+¿Quiero leer la TEORÍA COMPLETA?
+  → Lee: docs/YEAR.pdf  (reporte completo del año)
+  → O: README.md (introducción general)
+
+¿Quiero acceder a DATOS ORIGINALES?
+  → Carpeta: fuentes/YEAR/  (organizados por pilar)
+
+¿Quiero ver el CASO DE ESTUDIO?
+  → Carpeta: caso estudio calculos/  (Metro Quito 2023-2025)
+
+¿Quiero entender qué es GOV/ACC/ECO/PAY?
+  → Lee la Sección 2 de este archivo
+  → O expande cada pilar en la app
+
+¿Quiero ver cómo se calcula IDE-EC?
+  → Abre la app → Expande "Análisis Completo" → "Fórmulas"
+
+================================================================================
+NOTAS FINALES
+================================================================================
+
+Este proyecto es completamente funcional y autosuficiente. La carpeta
+"Digitalizacion EC" contiene TODO lo necesario para:
+
+✓ Mostrar datos de 2020-2025
+✓ Entender la metodología IDE-EC
+✓ Acceder a documentos de origen
+✓ Analizar caso de estudio Metro Quito
+✓ Funcionar sin conexión a internet
+
+Puedes copiar la carpeta completa a USB, compartir por email, o usarla
+en cualquier computadora con navegador web.
+
+Version: 2025.02
+Last Updated: Febrero 2026
+
+================================================================================

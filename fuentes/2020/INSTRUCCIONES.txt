@@ -1,0 +1,40 @@
+FUENTES - DOCUMENTOS DE REFERENCIA PARA EL 2020
+================================================
+
+Esta carpeta contiene los documentos PDF de referencia para el análisis del 2020.
+La página web apunta a estos archivos locales en lugar de enlaces externos.
+
+ARCHIVOS DISPONIBLES:
+====================
+
+1. gov 2020- 2021.pdf
+   Referencias: Dimensión GOV (Gobierno Digital)
+   Datos incluidos: Servicios en línea, infraestructura tecnológica, capital humano
+   Usado en: Sección "Pilar GOV - Gobierno Digital" del 2020
+
+2. acc 2020.pdf
+   Referencias: Dimensión ACC (Acceso y Capacidades)
+   Datos incluidos: Hogares con internet, uso de internet, celulares, smartphones, alfabetismo digital
+   Usado en: Sección "Pilar ACC - Acceso" del 2020
+
+3. gd 2020.pdf
+   Referencias: Dimensión PAY (Pagos Digitales) - Grado de Desarrollo
+   Datos incluidos: Transacciones SPI, Cash-Score, ventas POS, retiros ATM
+   Usado en: Sección "Pilar PAY - Pagos Digitales" del 2020
+
+4. eco ied 2020.pdf
+   Referencias: Dimensión ECO (Economía Digital) - Inversión Extranjera Directa
+   Datos incluidos: IED en sector TIC, VAB del sector, estructura económica
+   Usado en: Sección "Pilar ECO - Economía Digital" del 2020
+
+5. Exportaciones TIC (EXP_TI) 2020.pdf
+   Referencias: Dimensión ECO (Economía Digital) - Exportaciones
+   Datos incluidos: Exportaciones de servicios TIC, participación en PIB
+   Usado en: Sección "Pilar ECO - Economía Digital" del 2020
+
+ESTADO:
+=======
+
+✓ Todos los archivos están descargados y disponibles en esta carpeta.
+✓ La página web funcionará completamente sin conexión a internet.
+✓ Todos los datos del 2020 apuntan a referencias locales.
